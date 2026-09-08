@@ -4,7 +4,6 @@
 
 [![License: CERN-OHL-S v2](https://img.shields.io/badge/Hardware_License-CERN--OHL--S_v2-blue.svg)](./LICENSE-HARDWARE)
 [![License: LGPL v3](https://img.shields.io/badge/Software_License-LGPL_v3-green.svg)](./LICENSE-SOFTWARE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22525745.svg)](https://doi.org/10.5281/zenodo.22525745)
 
 ---
 ## 📄 Technical Black Paper
