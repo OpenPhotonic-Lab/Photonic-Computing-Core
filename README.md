@@ -13,19 +13,6 @@
 
 ## 🌟 Core Technical Highlights
 
-1. **Pure Electrostatic Modulation Mechanism:**  
-   Eliminates thermal phase-change delays and thermal dissipation overhead, achieving **GHz to THz** operational frequencies with near-zero static power dissipation.
-2. **Sub-Wavelength Surface Plasmon Polariton (SPP) Localization:**  
-   Compresses computing unit dimensions down to the **sub-micron/nanometer scale** (reducing footprint by 3–4 orders of magnitude compared to conventional silicon photonics), enabling ultra-high-density monolithic and heterogeneous integration.
-3. **Beyond-Binary Architecture:**  
-   Breaks the traditional binary (0/1) paradigm by implementing **multi-wavelength encoded multi-valued logic** and **analog arithmetic operations** (addition/subtraction/multiplication/division) enabled by non-linear optical frequency conversion (SFG/DFG) and saturable absorption.
-4. **Flip-Chip Modular Heterointegration Process:**  
-   Resolves the yield degradation and material fracturing bottlenecks typical in 2D material (Graphene/TMDs) transfer. The flip-chip configuration provides intrinsic environmental passivation without complex external hermetic packaging.
-5. **Global Chip Physical Fingerprint (Chip-DNA) Public Registry:**  
-   Maps and registers nanoscale intrinsic physical variations and fabrication defects to eradicate hardware supply chain risks. These unique physical features serve as keys for **Physical Unclonable Function (PUF)** hardware-rooted cryptographic authentication.
-
----
-
 ## 🗂️ Repository Branch Guide (Navigation)
 
 * 📐 **Branch `[simulation-and-fabrication]`:**  
