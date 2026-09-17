@@ -1,0 +1,110 @@
+All processes are communicating and ready to proceed to simulation...
+CPU threads per process: 1
+Checked out feature at start: 'FDTD_Solutions_engine'
+Checked out HPC license feature: 'FDTD_Solutions_engine'
+Ansys Lumerical 2025 R2 FDTD Solver Version 8.34.4175 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@localhost
+current time: 周四 9月 17 19:10:00 2026
+Running on host: G
+host available memory (GiB) 6.522
+
+All processes are communicating and ready to proceed to simulation...
+Detected 10 processes on 1 host
+This process is the local leader
+Running fsp file: D:\Program Files\ANSYS Inc\v252\Lumerical\bin\fdtd-engine-msmpi.exe -t 1 -remote -shared-solve-license QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT08QU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT48REFUQT5QRTlMUlZsZlUwbGFSVDRLTVRJNENqd3ZUMHRGV1Y5VFNWcEZQZ284UlU1RFgxTkpXa1UtQ2pFeU1BbzhMMFZPUTE5VFNWcEZQZ284U1ZaZlUwbGFSVDRLT0FvOEwwbFdYMU5KV2tVLUNqeE5VMGRmVTBsYVJUNEtNVEkxQ2p3dlRWTkhYMU5KV2tVLUNqeE5VMGMtQ2pGdlRVVlNOVE5aZUcxTlYxQTNXVzFGVmtGbE5HeE9NMVZUYjFWM2MzSmlkRUZITUhSRWIwUjRlbVIzWDNoQ2FrcExOVnBwYUdsZlVFaDZTRkptVkRGemJVcGlTVVZRTVhZM1ZsOW5Wa0pXZVVSU2NHWnJaMjFDV21wclowRndWRTgxUWpNM04yVnlTMFpXWW5welNGbzNUVzkwTFVKWGNqRllhekUyU0dSU1VreGxTVU51TUZGNWJWTm5VV2sxU0Y5dVNIaFJVRUZOTldGNlkzSnFOV054ZDBwUlptVlRWbXMxU3pKTldFTnFlbnAxZEd4MlNUSkdkVFZNZVhBNFRFbGhjMWwwYnpGNFl5MUxPR2xPTVhSVGRWTk9ibmxVUldJd1oycEZOVkUyUVMxVWRGUlVZVzQwVW1SUWVuTm1hV2xHTkVoc1p6WmxlblZJWDFwbFlrdEdUMmREVW5GV1FUZGZZVkJRU0hKTFVVRXhjMUp1V25kSWNtTkZXa0ZHTWxad1ZsZExUbkYyVkVwaWFXY3hMVWQzTms4eFlUVmxURjlpY2xCak9UTlphMVoyVWkxeGVIQjRWemxMYXpaU1NVZE1ibFZzWndvOEwwMVRSejRLPC9EQVRBPjwvQU5TWVNfTElDRU5TSU5HX0NPTlRFWFRfREFUQT4KQU5TWVNfTElDRU5TSU5HX1dPUktGTE9XX1NFU1NJT049PERBVEE+PElEPkdfR18yNTI8L0lEPjwvREFUQT4K E:/New Folder/My_Chip_V1.fsp
+Estimate of memory required: 0.106 GiB
+
+Sharing project file with 9 peer processes on this host
+All processes are communicating and ready to proceed to simulation...
+number of processors is 10
+processors are distributed as: 1x5x2
+Peak CPU memory used by end of initialization: 0.078069 GiB
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 38 x 8 x 25
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+24% initialized.
+33% initialized.
+Starting meshing
+Simulation size in gridpoints: 38 x 8 x 25
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+57% initialized.
+66% initialized.
+Starting meshing
+Simulation size in gridpoints: 38 x 8 x 25
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.000000 seconds of CPU time
+90% initialized.
+99% initialized.
+finished material properties
+Meshing Time: 0.013280 seconds, Init Electrical Material Time: 0.028417 seconds, Init Magnetic Material Time: 0.000127
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+100% initialized.
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Gaussian source propagating in Z
+Starting to add boundary conditions to simulation
+Adding 3D Periodic BC
+Adding 3D Periodic BC
+Adding 3D Parallel BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+Peak CPU memory used by end of meshing: 0.081548 GiB
+All processes are communicating and ready to proceed to simulation...
+Starting 38510 total iterations
+0.124642% complete. Elapsed simulation time: 1.24642e-15 secs. Max time remaining: 1 min, 1 secs. Auto Shutoff: 1
+1.28797% complete. Elapsed simulation time: 1.28797e-14 secs. Max time remaining: 26 secs. Auto Shutoff: 1
+2.61749% complete. Elapsed simulation time: 2.61749e-14 secs. Max time remaining: 33 secs. Auto Shutoff: 1
+5.27653% complete. Elapsed simulation time: 5.27653e-14 secs. Max time remaining: 33 secs. Auto Shutoff: 0.031463
+10.5946% complete. Elapsed simulation time: 1.05946e-13 secs. Max time remaining: 28 secs. Auto Shutoff: 0.00622341
+15.9127% complete. Elapsed simulation time: 1.59127e-13 secs. Max time remaining: 25 secs. Auto Shutoff: 0.00884337
+21.2308% complete. Elapsed simulation time: 2.12308e-13 secs. Max time remaining: 26 secs. Auto Shutoff: 0.00298152
+23.8898% complete. Elapsed simulation time: 2.38898e-13 secs. Max time remaining: 25 secs. Auto Shutoff: 0.00366031
+29.2079% complete. Elapsed simulation time: 2.92079e-13 secs. Max time remaining: 23 secs. Auto Shutoff: 0.00222543
+34.5259% complete. Elapsed simulation time: 3.45259e-13 secs. Max time remaining: 21 secs. Auto Shutoff: 0.00349805
+39.844% complete. Elapsed simulation time: 3.9844e-13 secs. Max time remaining: 20 secs. Auto Shutoff: 0.0015559
+45.1621% complete. Elapsed simulation time: 4.51621e-13 secs. Max time remaining: 18 secs. Auto Shutoff: 0.00172024
+50.4802% complete. Elapsed simulation time: 5.04802e-13 secs. Max time remaining: 16 secs. Auto Shutoff: 0.00129336
+55.7982% complete. Elapsed simulation time: 5.57982e-13 secs. Max time remaining: 14 secs. Auto Shutoff: 0.000770413
+61.1163% complete. Elapsed simulation time: 6.11163e-13 secs. Max time remaining: 12 secs. Auto Shutoff: 0.000911965
+66.4344% complete. Elapsed simulation time: 6.64344e-13 secs. Max time remaining: 11 secs. Auto Shutoff: 0.000446893
+71.7525% complete. Elapsed simulation time: 7.17525e-13 secs. Max time remaining: 9 secs. Auto Shutoff: 0.000403824
+77.0705% complete. Elapsed simulation time: 7.70705e-13 secs. Max time remaining: 7 secs. Auto Shutoff: 0.000311103
+82.3886% complete. Elapsed simulation time: 8.23886e-13 secs. Max time remaining: 5 secs. Auto Shutoff: 0.000172624
+87.7067% complete. Elapsed simulation time: 8.77067e-13 secs. Max time remaining: 4 secs. Auto Shutoff: 0.000174574
+93.0248% complete. Elapsed simulation time: 9.30248e-13 secs. Max time remaining: 2 secs. Auto Shutoff: 0.000101746
+98.3428% complete. Elapsed simulation time: 9.83428e-13 secs. Max time remaining: 0 secs. Auto Shutoff: 7.46441e-05
+99.9996% complete. Elapsed simulation time: 9.99996e-13 secs. Max time remaining: 0 secs. Auto Shutoff: 7.41563e-05
+Completed 38510 iterations, or 9.999955e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Finished collecting data
+Simulation completed successfully at: 周四 9月 17 19:10:31 2026
+Peak CPU memory used in the simulation (GiB): 0.113606
+Overall wall time measurements in seconds: 31.313877
+  time to mesh and initialize: 0.113173
+  time to run FDTD simulation: 29.997370
+  time to checkpoint simulation: 0.000000
+  time to finalize data and save to files: 0.154852
+  miscellaneous time: 1.048442
+  FDTD solver speed on process 0 (Mnodes/s): 9.756722
+  total FDTD solver speed on 10 processes (Mnodes/s): 97.567219
+
